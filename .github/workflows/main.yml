@@ -19,7 +19,5 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run app
-        run: node app.js
       - name: Build Docker image
         run: docker build -t my-node-app .
